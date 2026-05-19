@@ -18,3 +18,4 @@ View your app in AI Studio: https://ai.studio/apps/6fdf6a25-2d1a-463e-aec4-9154c
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+   novo deploy zayden
