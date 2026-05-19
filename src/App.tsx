@@ -63,7 +63,7 @@ export default function App() {
     <div className="min-h-screen relative overflow-hidden font-sans bg-brand-bg text-brand-dark">
       
       {/* Navigation */}
-      <nav className="fixed top-0 w-full z-50 px-6 py-3 lg:py-2 flex justify-between items-center bg-[#F6F5F2]/80 backdrop-blur-xl border-b border-[#E5E5EA] transition-all">
+      <nav className="fixed top-0 w-full z-50 px-6 py-3 lg:py-2 flex justify-between items-center bg-[#f6f1ee] border-b border-[#E5E5EA] transition-all">
         <BrandLogo />
 
         <div className="hidden lg:flex items-center gap-10 text-[13px] font-medium text-brand-dark/80 tracking-wide">
@@ -612,8 +612,7 @@ export default function App() {
 function BrandLogo() {
   return (
     <div className="flex items-center group cursor-pointer">
-      {/* Container carefully sized to not stretch the navbar, using mix-blend-darken and brightness bump to seamlessly melt the image background into the site */}
-      <div className="w-[70px] md:w-[95px] lg:w-[110px] mix-blend-darken -ml-1 transition-transform duration-500 group-hover:scale-[1.03]">
+      <div className="w-[70px] md:w-[95px] lg:w-[110px] -ml-1 transition-transform duration-500 group-hover:scale-[1.03]">
         <img 
           src="https://i.ibb.co/WNnj6Wd6/Chat-GPT-Image-18-de-mai-de-2026-20-43-35.png" 
           alt="ZAYDEN" 
@@ -621,9 +620,9 @@ function BrandLogo() {
           style={{ imageRendering: '-webkit-optimize-contrast' }}
         />
       </div>
-      <div className="hidden md:flex flex-col justify-center border-l border-brand-dark/10 pl-4 ml-2 h-10 transition-opacity duration-300">
-        <span className="text-[15px] font-bold tracking-[0.25em] text-brand-dark uppercase leading-none mt-0.5">ZAYDEN</span>
-        <span className="text-[9.5px] text-brand-gold font-bold tracking-[0.15em] uppercase mt-1.5 leading-none">Inteligência que Transforma</span>
+      <div className="flex flex-col justify-center border-l border-brand-dark/10 pl-3 md:pl-4 ml-1 md:ml-2 h-10 transition-opacity duration-300">
+        <span className="text-[12px] md:text-[15px] font-bold tracking-[0.25em] text-brand-dark uppercase leading-none mt-0.5">ZAYDEN</span>
+        <span className="text-[7.5px] md:text-[9.5px] text-brand-gold font-bold tracking-[0.15em] uppercase mt-1.5 leading-none">Inteligência que Transforma</span>
       </div>
     </div>
   );
