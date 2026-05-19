@@ -1,0 +1,6 @@
+{
+  "name": "ZAYDEN - Automação Inteligente",
+  "description": "Premium luxury landing page for ZAYDEN AI Automation, featuring Apple-tier design, custom shadows, and elegant typography.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
